@@ -1,5 +1,10 @@
 import EvrzLogo from "@/app/ui/evrz-logo";
 import LoginForm from "@/app/ui/login-form";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Login | Evrz",
+};
 
 export default function LoginPage() {
   return (
